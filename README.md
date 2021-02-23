@@ -46,9 +46,9 @@ Estas foram as tecnologias utilizadas nesse projeto:
 
 - ⚛️ **TypeScript**
 - ⚛️ **React JS**
-    <!-- - ⚛️ **React Native** -->
+- ⚛️ **NextJS**
     <!-- - 📄 **SQLite**
-  <!-- - ♻️ **Expo** --> -->
+  <!-- - ♻️ **Expo** -->
 
 <!-- ## 🎨 Layout da aplicação -->
 
@@ -80,13 +80,11 @@ Estas foram as tecnologias utilizadas nesse projeto:
 1. Clone este repositorio usando `https://github.com/felipersdf/moveit.git`
 2. Vá para a pasta raiz : `cd moveit-web`<br />
 3. Use `yarn` para instalar as dependências<br />
-<!--
 
-### Iniciando o servidor backend
+### Iniciando o servidor com Nextjs
 
-1. Vá para a pasta do backend: `cd server` <br>
+1. Vá para a pasta do next: `cd moveit-next` <br>
 2. Use `yarn dev` para iniciar o servidor
-3. Use `yarn knex:migrate` para criar o banco de dados -->
 
 <!-- ### Iniciando o app no frontend
 
