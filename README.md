@@ -1,13 +1,12 @@
-<h1 align="center">
+<h4 align="center">
 
-<!-- ![Logo](.github/banner.png) -->
+![Logo](.github/logo.svg)
 
-</h1>
-
-<p align="center"> 
-<!-- Uma aplicação web e mobile que tem como principal objetivo  conectar alunos e professores. -->
-</p>
-
+</h4>
+<div aling="center">
+<p align="center"> 🚀 <strong>Move It</strong> Projeto desenvolvido durante a Next Level Week #04 realizado pela Rocketseat.
+ </p>
+</div>
 <p align="center">
 
   <a href="https://github.com/felipersdf/bethehero/commits/master">
@@ -15,8 +14,6 @@
   </a>
 
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/felipersdf/moveit?color=%2304D361">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/felipersdf/moveit?color=%2304d361">
 
   <a href="https://github.com/felipersdf">
     <img alt="Made by Felipe Rodrigues" src="https://img.shields.io/badge/made%20by-Felipe Rodrigues-%2304D361">
@@ -28,27 +25,26 @@
 </p>
 
 <p align="center">
+  <a href="#sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#iniciando-a-aplicação">Iniciando a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <!-- <a href="#layout-da-aplicação">Layout da aplicação</a>&nbsp; -->
   &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#license">License</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-
 </p>
-
 <hr />
+
+## :bookmark: Sobre
+
+<strong>Move.it</strong> é um projeto baseado na técnica de pomodoro com pequenos exercícios nas pausas entre as atividades realizadas.
 
 ## 🚀 Tecnologias
 
 Estas foram as tecnologias utilizadas nesse projeto:
 
-<!-- - 💹 **Node JS** -->
-
-- ⚛️ **TypeScript**
-- ⚛️ **React JS**
-- ⚛️ **NextJS**
-    <!-- - 📄 **SQLite**
-  <!-- - ♻️ **Expo** -->
+- ⚛️ [TypeScript](https://www.typescriptlang.org/)
+- ⚛️ [React JS](https://reactjs.org/)
+- ⚛️ [NextJS](https://nextjs.org/)
 
 <!-- ## 🎨 Layout da aplicação -->
 
@@ -65,47 +61,20 @@ Estas foram as tecnologias utilizadas nesse projeto:
 
 </div>
 
-<!-- ### Mobile
-
-<div align="center">
-
-<img src=".github/mobile1.png" width="340px" />
-<img src=".github/mobile2.png" width="342px" />
-<img src=".github/mobile3.png" width="343px" />
-
-</div> -->
-
 ## 🧭 Iniciando a aplicação
 
-1. Clone este repositorio usando `https://github.com/felipersdf/moveit.git`
-2. Vá para a pasta raiz : `cd moveit-web`<br />
-3. Use `yarn` para instalar as dependências<br />
+Para iniciar a aplicação:
 
-### Iniciando o servidor com Nextjs
+```bash
+cd moveit-next
+yarn install // npm install
+yarn dev // npm dev
+```
 
-1. Vá para a pasta do next: `cd moveit-next` <br>
-2. Use `yarn dev` para iniciar o servidor
+Depois executar os passos, uma página com `localhost: 3000` contendo a aplicação desenvolida irá abrir no seu navegador.
 
-<!-- ### Iniciando o app no frontend
-
-1. Vá para a pasta do frontend: `cd web`
-2. Use `yarn start` para o iniciar o app web -->
-
-<!-- ### Iniciando o app mobile
-
-1. Vá para a pasta do mobile: `cd mobile`
-2. Use `react-native run-android` (ou `run-ios` se você possuir um iOs) para iniciar o aplicativo mobile
-
-Nota: Se você escolher rodar no emulador android, você precisa iniciar o emulador antes de utilizar o comando `run-android`. -->
-
-<!-- #### Utilizando o expo no seu celular
-
-1. Instale o aplicativo Expo no seu celular (disponível na App Store [iOs] ou Google Play Store [Android] )
-2. Use `yarn start`
-3. Abra o Expo no seu celular e escaneie o QRCode. -->
-
-## License
+## :memo: License
 
 This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
 
-All rights reserved to [RocketSeat](www.rocketseat.com.br)
+---
